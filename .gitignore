@@ -1,5 +1,6 @@
-/.certificates
 /gloggery
+/agate
+/.certificates
 /output
 /release
 /gloggery-*.tgz

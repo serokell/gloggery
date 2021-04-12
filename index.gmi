@@ -1,0 +1,56 @@
+```
+ -----.
+ |\\\\\\    Corp. Capsule
+ ||       |```.    __  _
+ `````\   | |> :\ |  |//\
+  ````|\\ |   /\\ |    \\
+ .----\|\ |_|\_\  |__|\_\\
+  \\\\\\\ \\\ \\\  \\\\\\\
+```
+
+# Your expectations, lifted
+
+Serokell is a software development company focused on creating customized high-performance solutions.
+
+=> glog/ Our gemlog
+
+Our team is composed of developers, designers, engineers, computer scientists, and mathematicians, all to help you realize your vision.
+
+# What makes us different
+
+Scientific Approach:
+Our connections with academia and research labs let us leverage the latest innovations to make products that are fast, scalable, and secure.
+
+Innovative technologies:
+Leverage our unique choice of technologies and approach to software development to create solutions with fewer bugs and security vulnerabilities. Save your money with software that is shipped faster and has to be maintained less frequently.
+
+Superior recruiting:
+Kickstart your tech project with top-tier talent, selected through our careful hiring process that features an innovative test task and interviews with team leads.
+
+Excellent reputation:
+We have excellent ratings on various B2B review platforms, and our developers have been rewarded at contests like the Telegram blockchain contest.
+
+Focus on business:
+Hire a team that cares about your growth. We assign each project a C-level executive that makes sure our team meets your exact business needs.
+
+Deep ties with industry:
+Our employees are working on several open-source projects that are loved by developers. In addition, we frequently visit conferences and sponsor the growth of new IT students.
+
+# Areas of Expertise
+
+Blockchain:
+Secure and decentralize your systems with our custom blockchain solutions.
+
+Fintech:
+Build distributed, massively scalable, and fault-tolerant systems with the help of our fintech professionals.
+
+Custom software development:
+Leverage our FP expertise to deliver tailor-made software with advanced security and reliability.
+
+Machine Learning:
+Improve your products with our innovative machine learning and data science solutions.
+
+Pharma and biotech:
+Automate and boost any step of your biotech R&D project with the help of our bioinformatics and numerical methods experts.
+
+=> https://serokell.io/hire-us Hire us to help you build excellent software
