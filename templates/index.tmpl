@@ -2,6 +2,8 @@
 
 # {{.Title}}
 {{range .Posts}}
-=> {{.Filename}} {{.ReadableDate}}: {{.Title}}{{end}}
+=> {{.Filename}} {{.ReadableDate}}: {{.Title}}
+{{.Summary}}
+{{end}}
 
 => {{.URL}}/atom.xml Feed

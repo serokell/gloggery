@@ -17,6 +17,7 @@ type post struct {
 	URL          string
 	PostTime     time.Time
 	Title        string
+	Summary      string
 	Body         string
 }
 
@@ -26,12 +27,14 @@ func newPost(index *postIndex, folder string, item folderItem, indexURL string) 
 	geminiFilename := fmt.Sprintf("%v-%v.gmi", postDateString, slug)
 
 	title := "Untitled"
+	summary := "This is a post"
 	body := string(readFile(folder, item.Filename))
 
-	splitBody := strings.SplitN(body, "\n\n", 2)
-	if len(splitBody) == 2 {
+	splitBody := strings.SplitN(body, "\n\n", 3)
+	if len(splitBody) == 3 {
 		title = splitBody[0]
-		body = splitBody[1]
+		summary = splitBody[1]
+		body = splitBody[2]
 	}
 
 	return &post{
@@ -41,6 +44,7 @@ func newPost(index *postIndex, folder string, item folderItem, indexURL string) 
 		URL:          fmt.Sprintf("%v/%v", indexURL, geminiFilename),
 		PostTime:     postTime,
 		Title:        title,
+		Summary:      summary,
 		Body:         body,
 	}
 }
