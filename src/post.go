@@ -45,7 +45,7 @@ func newPost(index *postIndex, folder string, item folderItem, indexURL string) 
 	}
 }
 
-var filenameRegex = regexp.MustCompile("^(\\d{4}-\\d{2}-\\d{2}-\\d{4})-(.*)")
+var filenameRegex = regexp.MustCompile("^(\\d{4}-\\d{2}-\\d{2})-(.*)")
 
 func parseFilename(filename string) (postTime time.Time, slug string) {
 	matches := filenameRegex.FindStringSubmatch(filename)
@@ -53,7 +53,7 @@ func parseFilename(filename string) (postTime time.Time, slug string) {
 		log.Fatalf("can't parse post filename %v", filename)
 	}
 
-	postTime, err := time.Parse("2006-01-02-1504", matches[1])
+	postTime, err := time.Parse("2006-01-02", matches[1])
 	if err != nil {
 		log.Fatalf("can't parse post time from post filename %v", filename)
 	}
